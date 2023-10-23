@@ -1,0 +1,6 @@
+google-cloud-aiplatform
+google-cloud-pipeline-components
+kfp<2.0.0
+pandas
+pandas-gbq
+ratelimit

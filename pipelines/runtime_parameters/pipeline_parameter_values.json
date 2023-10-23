@@ -1,0 +1,10 @@
+{
+    "project_id": "tester-sandbox",
+    "llm_model": "text-bison@001",
+    "input_bq_table": "tester-sandbox.movie_staging.movie",
+    "output_bq_table": "tester-sandbox.movie_staging.movie_rating",
+    "gcs_bucket": "movie_data_01",
+    "gcs_path": "sample_data/data.csv",
+    "llm_output_path": "sample_data/llm_result.csv",
+    "gs_pipeline_spec_path": "gs://tester-sandbox-movie-rating-bucket/pipeline_root/movie-rating/pipeline_job.json"
+}
